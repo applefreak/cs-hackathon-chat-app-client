@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
-  "version": "1.0",
+  "name": "Hackathon Chat",
+  "description": "Poyu & Deb's chat app.",
+  "version": "0.1",
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
   ],
   "browser_action": {
-    "default_title": "Append Test Text"
+    "default_title": "Chat and stuff"
   },
   "content_scripts": [
     {
