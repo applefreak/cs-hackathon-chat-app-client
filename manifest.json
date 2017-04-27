@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "browser_action": {
+    "default_title": "Append Test Text"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["socket.io.min.js", "jquery.min.js", "md5.min.js", "content-script.js"],
+      "css": ["main.css"]
+    }
+  ]
+}

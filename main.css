@@ -1,0 +1,12 @@
+#codesmith-chat {
+	position: fixed !important;
+	overflow: visible;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 30%;
+	z-index: 9999;
+	background-color: rgba(255, 0, 0, 0.7);
+	height: 200px;
+	color: white;
+}
