@@ -8,14 +8,12 @@
     "activeTab",
     "https://ajax.googleapis.com/"
   ],
-  "browser_action": {
-    "default_title": "Chat and stuff"
-  },
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["socket.io.min.js", "jquery.min.js", "md5.min.js", "content-script.js"],
-      "css": ["main.css"]
+      "js": ["js/socket.io.min.js", "js/jquery.min.js", "js/md5.min.js", "content-script.js"],
+      "css": ["css/font-awesome.min.css", "css/main.css"]
     }
-  ]
+  ],
+  "web_accessible_resources": [ "fonts/*" ]
 }
